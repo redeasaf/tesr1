@@ -27,20 +27,20 @@ header h1 {
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: white;
-    color: #30578d;
+    background-color: #30578d;
+    color: white;
     padding: 6px 15px;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 4px;
+    border: 1px solid white;
     transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
 .top-login-btn:hover {
-    background-color: #e8eceb;
-    transform: scale(1.05);
+    background-color: white;
+    color: #30578d;
 }
 
 .container {
@@ -119,6 +119,13 @@ footer {
         position: static;
         display: inline-block;
         margin-bottom: 15px;
+        background-color: #30578D;
+        color: white;
+        padding: 6px 16px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.6);
     }
 }
 
