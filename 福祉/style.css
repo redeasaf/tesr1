@@ -14,12 +14,33 @@ header {
     color: white;
     text-align: center;
     padding: 40px;
+    position: relative;
 }
 
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.top-login-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: #30578d;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.top-login-btn:hover {
+    background-color: #e8eceb;
+    transform: scale(1.05);
 }
 
 .container {
@@ -93,8 +114,42 @@ footer {
     .card {
         width: 90%;
     }
+    
+    .top-login-btn {
+        position: static;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
 }
 
 .form-box {
     width: 500px;
-    max-width:
+    max-width: 90%;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+.form-box button {
+    width: 100%;
+    background: #30578d;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.form-box button:hover {
+    background: #426ea8;
+}
