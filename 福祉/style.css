@@ -118,7 +118,8 @@ footer {
     .top-login-btn {
         position: static;
         display: inline-block;
-        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-bottom: 0;
         background-color: #30578D;
         color: white;
         padding: 6px 16px;
